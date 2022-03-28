@@ -1,12 +1,21 @@
 package com.student.resultapp.model;
 
-public class USER_SIGN_UP {
+public class UserSignUp {
 
 	private String name;
 	private String email;
 	private String mobilenumber;
 	private String department;
 	private String batch;
+	private String password;
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
 	public String getName() {
 		return name;
@@ -50,8 +59,8 @@ public class USER_SIGN_UP {
 
 	@Override
 	public String toString() {
-		return "USER_SIGN_UP [NAME=" + name + ", EMAIL=" + email + ", MOBILE NUMBER=" + mobilenumber + ", DEPARTMENT="
-				+ department + ", BATCH=" + batch + "]";
+		return "USER SIGN UP [NAME=" + name + ", EMAIL=" + email + ", MOBILE NUMBER=" + mobilenumber + ", DEPARTMENT="
+				+ department + ", BATCH=" + batch + ",PASSWORD=" + password + "]";
 	}
 
 }
