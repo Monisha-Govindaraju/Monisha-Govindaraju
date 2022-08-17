@@ -1,14 +1,14 @@
 STUDENT RESULT APP
-PROJECT DESCRIPTION:
+Project description:
    STUDENT RESULT APP is a web application that links to a college/school database and allows students and teachers(admins) to sign in through their particular credential IDs. Students can login through their valid credentials and can check their results. Students can also calculate their grades through this application. Teachers who are the admins can assign the marks for the respective students, update the marks and can also delete them accordingly.
 
-TECHNOLOGIES USED:
+Technologies used:
 *JAVA
 *Maven
 *MySQL
 *GIT
 
-FEATURES:
+Features:
 1.Users can register the application by their credential IDs.
 2.Users can login with their respective credential IDs.
 3.Students can check their results.
@@ -16,7 +16,7 @@ FEATURES:
 5.Students can also calculate their grade using their subject marks.
    The above mentioned are the modules what the project hold.Users can register and login with their valid credential IDs and students can check and calculate their grades. Admins can assign,update,delete the marks of students accordingly.
 
-TO DO LIST:
+To do list:
 *Teachers can check results of students in whole and should fetch toppers.
 *They should filter toppers subject wise and department wise.
 
